@@ -1,5 +1,18 @@
-@media only screen and (max-width: 600px) {
+#ingredients_recipe{
+    display: flex;
+    flex-direction: row;
+}
+
+#ingredients_recipe section{
+    width: 50%;
+}
+
+@media only screen and (max-width: 500px) {
     body > main {
         background-color: lightblue;
+    }
+    body > nav {
+        display: flex;
+        flex-direction: column;
     }
 }
